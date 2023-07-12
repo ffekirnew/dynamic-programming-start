@@ -1,4 +1,4 @@
-# 1 The Fibonacci sequence
+# 1. The Fibonacci sequence
 
 ## Problem Statement
 Return the n-th number in the Fibonacci sequence. The first two numbers in the Fibonacci

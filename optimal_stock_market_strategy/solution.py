@@ -4,11 +4,6 @@ from typing import List
 
 class OptimalStockMarketStrategy:
     def top_down(self, prices: List[int]) -> int:
-        """The intuition is a stock can be bought, sold or left untouched on any given day. We have a list of prices on
-        different days for the given stock. Choose to do all three actions on each day - play out every scenario - then decide
-        which one gives the maximum profit.
-        """
-        
         stock_cache = {}
         def get_max_profit(day: int, stock_on_hand: int) -> int:
             if day == len(prices):
