@@ -23,7 +23,7 @@ This github repository is for the study of dynamic programming through the book 
 - [ ] [Problem 9: The maximum-product subarray](the_maximum_product_subarray)
 - [ ] [Problem 10: Shortest pair of subarrays with target sum](shortest_pair_of_subarrays_with_target_sum)
 - [X] [Problem 11: Longest palindromic substring](longest_palindromic_substring)
-- [ ] [Problem 12: Longest valid parentheses substring](longest_valid_parentheses_substring)
+- [X] [Problem 12: Longest valid parentheses substring](longest_valid_parentheses_substring)
 - [X] [Problem 13: Longest increasing subsequence](longest_increasing_subsequence)
 - [X] [Problem 14: Longest arithmetic subsequence](longest_arithmetic_subsequence)
 - [ ] [Problem 15: Dealing the best hand of cards](dealing_the_best_hand_of_cards)
@@ -41,7 +41,7 @@ This github repository is for the study of dynamic programming through the book 
 ## Usage
 Each problem is contained in a folder with the same name as the problem. The folder contains a `README.md` file and a `solution.py` file. The `README.md` file contains the problem description and the solution description(s). The solution file contains a class with the same name as the problem and consequent class methods for different solutions that all receive the input and return the output. The input and output are described in the problem description.
 
-A typical problem folder looks like this:
+A typical problem folder looks like this, sut some of them might have a unittest file too:
 ```sh
 .
 ├── problem_name
