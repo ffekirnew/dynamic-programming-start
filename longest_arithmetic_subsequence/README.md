@@ -8,8 +8,8 @@ The first and the only argument of input contains an integer array, A.
 ### Output Format
 Return an integer representing the length of the longest arithmetic subsequence in A.
 
-### Examples
-#### Example 1:
+## Examples
+### Example 1:
 ```
 Input:
 [3, 6, 9, 12]
@@ -18,7 +18,7 @@ Output:
 4
 ```
 
-#### Example 2:
+### Example 2:
 ```
 Input:
 [9, 4, 7, 2, 10]
@@ -30,3 +30,7 @@ Output:
 ## Solutions
 ### Solution 1: Bottom-up Dynamic Programming
 The time complexity is O(n<sup>2</sup>) and the space complexity is O(n<sup>2</sup>).
+
+## Leetcode
+- [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)
+- [1218. Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)
