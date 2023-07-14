@@ -1,11 +1,14 @@
 import unittest 
+import inspect
 from solution import LongestValidParenthesisSubstring
 
 
 class TestLongestValidParenthesisSubstring(unittest.TestCase):
     def setUp(self):
         self.solution = LongestValidParenthesisSubstring()
-        self.functions = [self.solution.bottom_up]
+
+        # Retrieve all the methods from the solution instance and store all the methods for testing
+        self.functions = [method for name, method in inspect.getmembers(self.solution, predicate=inspect.ismethod)]
 
     def test_1_one_pair(self):
         for f in self.functions:
