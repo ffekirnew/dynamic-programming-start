@@ -29,7 +29,7 @@ This github repository is for the study of dynamic programming through the book 
 - [ ] [Problem 15: Dealing the best hand of cards](dealing_the_best_hand_of_cards)
 - [X] [Problem 16: Number of ways to climb stairs](number_of_ways_to_climb_stairs)
 - [ ] [Problem 17: Number of paths through maze](number_of_paths_through_maze)
-- [ ] [Problem 18: Maximum-score path through maze](maximum_score_path_through_maze)
+- [X] [Problem 18: Maximum-score path through maze](maximum_score_path_through_maze)
 - [X] [Problem 19: Subarray sum](subarray_sum)
 - [X] [Problem 20: Submatrix sum](submatrix_sum)
 - [ ] [Problem 21: Largest square submatrix of ones](largest_square_submatrix_of_ones)
