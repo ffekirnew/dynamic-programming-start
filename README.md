@@ -28,7 +28,7 @@ This github repository is for the study of dynamic programming through the book 
 - [X] [Problem 14: Longest arithmetic subsequence](longest_arithmetic_subsequence)
 - [ ] [Problem 15: Dealing the best hand of cards](dealing_the_best_hand_of_cards)
 - [X] [Problem 16: Number of ways to climb stairs](number_of_ways_to_climb_stairs)
-- [ ] [Problem 17: Number of paths through maze](number_of_paths_through_maze)
+- [X] [Problem 17: Number of paths through maze](number_of_paths_through_maze)
 - [X] [Problem 18: Maximum-score path through maze](maximum_score_path_through_maze)
 - [X] [Problem 19: Subarray sum](subarray_sum)
 - [X] [Problem 20: Submatrix sum](submatrix_sum)
