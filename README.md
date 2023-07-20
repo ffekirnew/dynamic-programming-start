@@ -18,7 +18,7 @@ This github repository is for the study of dynamic programming through the book 
 - [ ] [Problem 4: Number of Expressions with a target Result](number_of_expressions_with_a_target_result)
 - [X] [Problem 5: Partitioning a set into equal-sum parts](partitioning_a_set_into_equal_sum_parts)
 - [X] [Problem 6: Splitting a string without spaces into words](splitting_a_string_without_spaces_into_words)
-- [ ] [Problem 7: The number of binary search trees](the_number_of_binary_search_trees)
+- [X] [Problem 7: The number of binary search trees](the_number_of_binary_search_trees)
 - [X] [Problem 8: The maximum-sum subarray](the_maximum_sum_subarray)
 - [ ] [Problem 9: The maximum-product subarray](the_maximum_product_subarray)
 - [ ] [Problem 10: Shortest pair of subarrays with target sum](shortest_pair_of_subarrays_with_target_sum)
