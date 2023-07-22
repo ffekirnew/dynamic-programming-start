@@ -20,7 +20,7 @@ This github repository is for the study of dynamic programming through the book 
 - [X] [Problem 6: Splitting a string without spaces into words](splitting_a_string_without_spaces_into_words)
 - [X] [Problem 7: The number of binary search trees](the_number_of_binary_search_trees)
 - [X] [Problem 8: The maximum-sum subarray](the_maximum_sum_subarray)
-- [ ] [Problem 9: The maximum-product subarray](the_maximum_product_subarray)
+- [X] [Problem 9: The maximum-product subarray](the_maximum_product_subarray)
 - [ ] [Problem 10: Shortest pair of subarrays with target sum](shortest_pair_of_subarrays_with_target_sum)
 - [X] [Problem 11: Longest palindromic substring](longest_palindromic_substring)
 - [X] [Problem 12: Longest valid parentheses substring](longest_valid_parentheses_substring)

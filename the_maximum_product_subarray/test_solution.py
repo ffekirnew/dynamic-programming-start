@@ -1,3 +1,4 @@
+from typing import List
 import unittest
 import random
 from solution import MaximumProductSubarray
@@ -5,7 +6,10 @@ from solution import MaximumProductSubarray
 
 class TestMaximumProductSubarray(unittest.TestCase):
     def setUp(self):
-        self.functions = [MaximumProductSubarray.bottom_up]
+        self.functions = [
+            MaximumProductSubarray.bottom_up,
+            MaximumProductSubarray.optimal_bottom_up,
+        ]
 
     def test_1_simple(self):
         array = [2, 3, -2, 4]
@@ -23,12 +27,13 @@ class TestMaximumProductSubarray(unittest.TestCase):
 
     def test_3_perf(self):
         array = [random.randint(-1000, 1000) for _ in range(10000)]
-        expected_result = self.brute_force_max_product(array)
+        expected_result = TestMaximumProductSubarray.brute_force_max_product(array)
         for f in self.functions:
             result = f(array)
             self.assertEqual(result, expected_result)
 
-    def brute_force_max_product(self, array):
+    @staticmethod
+    def brute_force_max_product(array: List[int]) -> int:
         max_product = array[0]
         for i in range(len(array)):
             product = 1
