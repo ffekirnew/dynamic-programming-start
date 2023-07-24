@@ -12,7 +12,7 @@ class MaximumScorePathThroughMaze:
 
         def dp(row, col) -> int:
             if not in_bound(row, col):
-                return -inf
+                return int(-inf)
 
             if row == len(grid) - 1 and col == len(grid[0]) - 1:
                 return grid[row][col]
