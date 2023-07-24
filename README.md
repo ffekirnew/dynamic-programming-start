@@ -15,7 +15,7 @@ This github repository is for the study of dynamic programming through the book 
 - [x] [Problem 1: Fibonacci Numbers](the_fibonacci_sequence)
 - [X] [Problem 2: Optimal Stock Market Strategy](optimal_stock_market_strategy)
 - [X] [Problem 3: Change Making](change_making)
-- [ ] [Problem 4: Number of Expressions with a target Result](number_of_expressions_with_a_target_result)
+- [X] [Problem 4: Number of Expressions with a target Result](number_of_expressions_with_a_target_result)
 - [X] [Problem 5: Partitioning a set into equal-sum parts](partitioning_a_set_into_equal_sum_parts)
 - [X] [Problem 6: Splitting a string without spaces into words](splitting_a_string_without_spaces_into_words)
 - [X] [Problem 7: The number of binary search trees](the_number_of_binary_search_trees)
